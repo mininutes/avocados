@@ -29,6 +29,7 @@ header{
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -113,21 +114,56 @@ h3:after{
 .copy {
     width: 70%;
     margin-left: 15%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
 .arranging {
     text-align: justify;
+    margin-bottom: 30px;
 }
 
 .features i{
     font-size: 40px;
     color: darkolivegreen;
-    margin-left: 35%;
+    margin-left: 45%;
 
 }
 
 .features h4 {
-    margin-left: 40px;
+    text-align: center;
+}
+
+.meal-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.05);
+}
+
+.meal {
+    margin-top: 60px;
+
 }
