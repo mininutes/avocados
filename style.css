@@ -18,7 +18,7 @@ body {
     position: absolute;
     width: 1140px;
     top: 50%;
-    left: 85%;
+    left: 83%;
     transform: translate(-50%, -50%);
     color: #556B2F;
 }
@@ -35,7 +35,7 @@ header{
 .main-nav{
     list-style: none;
     float: right;
-    margin-top:60px ;   
+    margin-top:40px ;   
 }
 
 .main-nav li{
