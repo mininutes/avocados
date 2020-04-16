@@ -18,7 +18,7 @@ body {
     position: absolute;
     width: 600px;
     margin-top: 150px;
-    margin-left: 950px;
+    margin-left: 900px;
     transform: translate(-50%, -50%);
     color: #556B2F;
 }
@@ -36,7 +36,7 @@ header{
     list-style: none;
     float: right;
     margin-top:40px ; 
-    margin-left: 470px;  
+    margin-left: 450px;  
 }
 
 .main-nav li{
@@ -62,8 +62,8 @@ header{
 .logo img {
    height: 90px;
    float: left;
-   margin-top: 18px; 
-   margin-left: 150px;
+   margin-top: 15px; 
+   margin-left: 170px;
 }
 
 .btn{
