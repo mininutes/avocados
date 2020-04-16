@@ -85,6 +85,10 @@ header{
     color: darkolivegreen;
 }
 
+.btn-half:hover {
+    color: white;
+}
+
 .btn-full:hover{
     background-color: darkolivegreen;
     color: white;
