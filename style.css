@@ -86,11 +86,48 @@ header{
 }
 
 .btn-half:hover {
-    color: white;
+    color: darkolivegreen;
 }
 
 .btn-full:hover{
-    background-color: darkolivegreen;
+    background-color: 
     color: white;
     transition: all 0.5s ease-in;
+}
+
+h3:after{
+    width: 100px;
+    height: 2px;
+    background-color: darkolivegreen;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features h3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.copy {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+
+}
+
+.arranging {
+    text-align: justify;
+}
+
+.features i{
+    font-size: 40px;
+    color: darkolivegreen;
+    margin-left: 35%;
+
+}
+
+.features h4 {
+    margin-left: 40px;
 }
