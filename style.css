@@ -83,7 +83,12 @@ header{
 
 .btn-half {
     background-color: #F5DEB3;
-    color: darkolivegreen;
+    color: black;
+}
+
+.btn-full {
+    background-color: #F5DEB3;
+    color: black;
 }
 
 .btn-half:hover {
@@ -91,7 +96,7 @@ header{
 }
 
 .btn-full:hover{
-    background-color: 
+    background-color: darkolivegreen;
     color: white;
     transition: all 0.5s ease-in;
 }
@@ -167,3 +172,4 @@ h3:after{
     margin-top: 60px;
 
 }
+
